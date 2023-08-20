@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <section class="mainSec">
+        <nav class="navbar navbar-dark main-bg-color-gray navbar-expand-lg link-dark py-3">
+            <div class="container">
+                <a class="navbar-brand" href="#"><i class="fa-solid fa-cloud-sun fa-4x fa-beat-fade"></i></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item rounded-pill mx-1">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item mx-1">
+                            <a class="nav-link" href="#">News</a>
+                        </li>
+                        <li class="nav-item mx-1">
+                            <a class="nav-link" href="#">Live cameras</a>
+                        </li>
+                        <li class="nav-item mx-1">
+                            <a class="nav-link" href="#">Photos</a>
+                        </li>
+                        <li class="nav-item mx-1">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container ">
+            <div class="input-container position-relative">
+                <input type="text" class="form-control my-5 py-3 px-4 rounded-pill bg-dark main-bg-color-gray border-dark text-white" placeholder="Find your location..." id="myInput">
+                <button class="btn btn-danger position-absolute end-0 top-50 translate-middle-y me-3 rounded-pill px-4 py-2 text-white" id="myButton"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <div class="container mt-5 d-flex justify-content-center align-items-center px-0">
+            <div class="row text-white my-5 w-100">
+                <div class="col-lg-4 px-0">
+                    <div class="card card-edge mb-3 border-0 rounded-0 rounded-start v-100" id="card0">
+                    </div>
+                </div>
+                <div class="col-lg-4 px-0">
+                    <div class="card card-mid mb-3 border-0 rounded-0 v-100" id="card1">
+                    </div>
+                </div>
+                <div class="col-lg-4 px-0">
+                    <div class="card mb-3 card-edge border-0 rounded-0 rounded-end v-100" id="card2">
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+body{
+    background-color: #1e202b;;
+}
+.main-bg-color-gray{
+    background-color: rgba(0,0,0,0.5) !important;
+}
+.v-100{
+    height: 100%;
+}
+.nav-item{
+    border: solid 2px transparent;
+    border-radius: 30px;
+    transition: all 0.25s 0s ease !important;
+    color: white !important;
+}
+.nav-item a{
+    color: inherit !important;
+    padding: 2px 25px !important;
+    transition: all 0s 0s !important;
+}
+.nav-item:hover{
+    border-color: #009ad8;
+    color: #009ad8 !important;
+}
+.navbar-brand i {
+    color: #009ad8;
+}
+.main-bg-color{
+    background-color: #009ad8 !important;
+}
+.main-color{
+    color: #009ad8;
+}
+
+.fs-big{
+    font-size: 6rem;
+}
+.main-color-gray{
+    color: #bfc1c8;
+}
+.mainSec{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/pexels-pixabay-33545.jpg);
+    background-size: cover;
+    height: 140vh;
+    background-position: center;
+}
+.card-edge{
+    background-color: rgb(38, 41, 54,0.8);
+}
+.card-mid{
+    background-color: rgba(30, 32, 43,0.8);
+}
+.card-header{
+    background-color: rgba(0,0,0,0.1);
+}
+.btn-danger{
+    transform: translateY(-50%)  scale(0)  !important;
+    transition: transform 0.5s ease 0s;
+}
